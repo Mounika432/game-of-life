@@ -1,4 +1,4 @@
-node('JDK'){
+node('JDK8'){
     stage('sourcecode'){
         //get the code from git repo on the branch sprint1_develop
         git branch: 'sprint1_develop', url: 'https://github.com/khajasCICDSamples/game-of-life.git'
